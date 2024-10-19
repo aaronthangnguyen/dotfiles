@@ -26,3 +26,8 @@ alias td="today.sh"
 # +---  fzf  ---+
 source <(fzf --zsh)
 export FZF_DEFAULT_OPTS="--color=gutter:-1"
+
+# +---  Deno  ---+
+fpath=(~/.zsh $fpath)
+autoload -Uz compinit
+compinit -u
