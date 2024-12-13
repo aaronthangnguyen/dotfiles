@@ -1,6 +1,6 @@
 # +---  Envs  ---+
+export COLORTERM=truecolor
 export EDITOR="nvim"
-export TERM='xterm-256color'
 export VISUAL='nvim'
 
 export NVM_DIR="$HOME/.nvm"
